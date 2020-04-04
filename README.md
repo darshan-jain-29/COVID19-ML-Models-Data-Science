@@ -1,6 +1,9 @@
 # COVID19-WEEK-2-Global-Forecasting
 Using Machine learning models to predict cases and fatalties.
 
+Link to the competition: https://www.kaggle.com/c/covid19-global-forecasting-week-2
+Link to my solution on Kaggle: https://www.kaggle.com/darshanjain29/working-solution-progressing-on-leaderboard/
+
 COVID19 is a serious outbreak of Corona Virus and now it is spreading at a very huge rate across the globe. In that situation Kaggle came up with the dataset of predicting the cases.
 
 About the dataset:
@@ -18,4 +21,20 @@ Now, firstly I started with feature engineering.
 
 Training models on dataframes and generating root mean squared lograthmic error:
 
-1. 
+After splitting the data into train and test, I have used the following models:
+
+1. SVM
+
+2.Decision Tree Regressor
+
+3. Random Forest Regressor
+
+4. Adaboost regressor
+
+5. Voting Regressor with Random Forest, Bagging and Decision Tree Regressor
+
+6. Bagging Regressor
+
+Out of all I got the best score with 6th Bagging Regressor. Then I have tried to improve the score by doing hyperparameter tuning. But it didn't help. 
+
+Thanks for reading :-)
